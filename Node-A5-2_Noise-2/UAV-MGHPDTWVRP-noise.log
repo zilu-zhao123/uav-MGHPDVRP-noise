@@ -1,0 +1,147 @@
+
+Gurobi 11.0.2 (win64) logging started Thu Nov 28 15:42:30 2024
+
+Set parameter LogFile to value "ExactOutput\Node-A5-2_Noise-2\UAV-MGHPDTWVRP-noise.log"
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: 11th Gen Intel(R) Core(TM) i5-11300H @ 3.10GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 71763 rows, 35256 columns and 168945 nonzeros
+Model fingerprint: 0xf991ef54
+Model has 6660 quadratic objective terms
+Variable types: 21264 continuous, 13992 integer (13992 binary)
+Coefficient statistics:
+  Matrix range     [1e-01, 4e+04]
+  Objective range  [1e-07, 5e+01]
+  QObjective range [2e-07, 2e-07]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+05]
+Presolve removed 68300 rows and 20548 columns
+Presolve time: 0.76s
+Presolved: 16783 rows, 34688 columns, 44446 nonzeros
+Presolved model has 13320 SOS constraint(s)
+Variable types: 20460 continuous, 14228 integer (14228 binary)
+
+Root relaxation: objective 0.000000e+00, 303 iterations, 0.01 seconds (0.01 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0    8          -    0.00000      -     -    1s
+     0     0    0.00000    0   19          -    0.00000      -     -    1s
+H    0     0                     112.0000000    0.00000   100%     -    1s
+     0     0    0.00000    0   14  112.00000    0.00000   100%     -    1s
+H    0     0                      99.0000000    0.00000   100%     -    1s
+     0     0    0.00000    0    7   99.00000    0.00000   100%     -    1s
+H    0     0                      52.7440000    0.00000   100%     -    1s
+     0     0    0.00000    0   24   52.74400    0.00000   100%     -    1s
+H    0     0                      48.0040000    0.00000   100%     -    1s
+     0     0    0.00000    0    9   48.00400    0.00000   100%     -    1s
+H    0     0                      47.3920000    0.00000   100%     -    1s
+     0     0    0.00000    0    8   47.39200    0.00000   100%     -    1s
+H    0     0                      43.4080000    0.00000   100%     -    1s
+     0     0    0.00000    0    9   43.40800    0.00000   100%     -    1s
+     0     0    0.00000    0   21   43.40800    0.00000   100%     -    1s
+H    0     0                      37.0000000    0.00000   100%     -    1s
+     0     0    0.00000    0   12   37.00000    0.00000   100%     -    1s
+     0     0    0.00000    0   12   37.00000    0.00000   100%     -    1s
+H    0     0                      25.2508358    0.00000   100%     -    1s
+     0     0    0.00000    0    9   25.25084    0.00000   100%     -    1s
+     0     0    0.00000    0    9   25.25084    0.00000   100%     -    1s
+     0     2    0.00000    0    9   25.25084    0.00000   100%     -    1s
+H   86    76                      24.6898358    0.00000   100%  39.7    2s
+H  185   122                      24.6120000    0.00000   100%  26.7    2s
+H  221   153                      24.0000000    0.00000   100%  29.1    2s
+H  675   275                      19.2820000    0.00000   100%  19.1    2s
+H  782   269                      12.0000000    0.00000   100%  18.0    2s
+  6009   341    0.00000   24    9   12.00000    0.00000   100%  10.4    5s
+ 12087   354    1.71000   35   10   12.00000    0.00000   100%   9.8   10s
+ 14077    63    0.00000   31   13   12.00000    0.00000   100%  13.6   15s
+
+Cutting planes:
+  Learned: 2
+  Implied bound: 59
+  MIR: 6
+  Flow cover: 55
+  RLT: 11
+  Relax-and-lift: 19
+  PSD: 1
+
+Explored 16091 nodes (257836 simplex iterations) in 18.15 seconds (25.77 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 10: 12 19.282 24 ... 52.744
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 1.200000000000e+01, best bound 1.200000000000e+01, gap 0.0000%
+
+Gurobi 11.0.2 (win64) logging started Fri Nov 29 12:20:32 2024
+
+Set parameter LogFile to value "ExactOutput\Node-A5-2_Noise-2\UAV-MGHPDTWVRP-noise.log"
+Gurobi Optimizer version 11.0.2 build v11.0.2rc0 (win64 - Windows 10.0 (19045.2))
+
+CPU model: 11th Gen Intel(R) Core(TM) i5-11300H @ 3.10GHz, instruction set [SSE2|AVX|AVX2|AVX512]
+Thread count: 4 physical cores, 8 logical processors, using up to 8 threads
+
+Optimize a model with 71763 rows, 35256 columns and 169066 nonzeros
+Model fingerprint: 0xc183b9bb
+Model has 6660 quadratic objective terms
+Variable types: 21264 continuous, 13992 integer (13992 binary)
+Coefficient statistics:
+  Matrix range     [2e-02, 4e+04]
+  Objective range  [1e-07, 5e+01]
+  QObjective range [2e-07, 2e-07]
+  Bounds range     [1e+00, 1e+00]
+  RHS range        [1e+00, 1e+05]
+Presolve removed 68562 rows and 20719 columns
+Presolve time: 0.56s
+Presolved: 16521 rows, 34517 columns, 43290 nonzeros
+Presolved model has 13320 SOS constraint(s)
+Variable types: 20427 continuous, 14090 integer (14090 binary)
+
+Root relaxation: objective 0.000000e+00, 317 iterations, 0.01 seconds (0.01 work units)
+
+    Nodes    |    Current Node    |     Objective Bounds      |     Work
+ Expl Unexpl |  Obj  Depth IntInf | Incumbent    BestBd   Gap | It/Node Time
+
+     0     0    0.00000    0    9          -    0.00000      -     -    0s
+H    0     0                    4.540000e+10    0.00000   100%     -    0s
+     0     0    0.00000    0   19 4.5400e+10    0.00000   100%     -    0s
+     0     0    0.00000    0   16 4.5400e+10    0.00000   100%     -    0s
+     0     0    0.00000    0    9 4.5400e+10    0.00000   100%     -    1s
+H    0     0                      81.9000000    0.00000   100%     -    1s
+     0     0    0.00000    0   12   81.90000    0.00000   100%     -    1s
+     0     0    0.00000    0   11   81.90000    0.00000   100%     -    1s
+H    0     0                      62.0000000    0.00000   100%     -    1s
+     0     0    0.00000    0   11   62.00000    0.00000   100%     -    1s
+     0     0    0.00000    0   21   62.00000    0.00000   100%     -    1s
+     0     0    0.00000    0   21   62.00000    0.00000   100%     -    1s
+     0     0    0.00000    0    9   62.00000    0.00000   100%     -    1s
+     0     0    0.00000    0   22   62.00000    0.00000   100%     -    1s
+     0     0    0.00000    0   14   62.00000    0.00000   100%     -    1s
+     0     0    0.00000    0    4   62.00000    0.00000   100%     -    1s
+     0     2    0.00000    0    4   62.00000    0.00000   100%     -    1s
+H   35    36                      37.0000000    0.00000   100%  49.7    1s
+  3409   777    0.00000   23   13   37.00000    0.00000   100%  18.6    5s
+  9729   616 infeasible   34        37.00000    0.00000   100%  24.7   10s
+ 17970  1239 infeasible   67        37.00000    0.00000   100%  26.7   15s
+ 27742  1291 infeasible   65        37.00000    0.00000   100%  27.6   20s
+
+Cutting planes:
+  Learned: 1
+  Cover: 1
+  Implied bound: 14
+  Projected implied bound: 2
+  Flow cover: 12
+  RLT: 6
+  Relax-and-lift: 4
+  PSD: 1
+
+Explored 33470 nodes (890929 simplex iterations) in 21.82 seconds (22.91 work units)
+Thread count was 8 (of 8 available processors)
+
+Solution count 4: 37 37 62 81.9 
+
+Optimal solution found (tolerance 1.00e-04)
+Best objective 3.700000000000e+01, best bound 3.700000000000e+01, gap 0.0000%
